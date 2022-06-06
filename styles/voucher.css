@@ -1,0 +1,39 @@
+#navbar{
+    height: 50px;
+    display: flex;
+    background-color: aqua;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+#navbar h3{
+    margin-top: 16px;
+    margin-left: 25px;
+}
+#navbar a{
+    margin-top: 16px;
+    margin-right: 25px;
+}
+#voucher_list{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.voucher{
+    border: 1px solid black;
+}
+#img{
+    height: 350px;
+    width: 90%;
+    margin-left: 18px;
+}
+#namee{
+    text-align: center;
+}
+#price{
+    text-align: center;
+}
+.buy_voucher{
+    margin-left: 160px;
+    margin-bottom: 10px;
+}
